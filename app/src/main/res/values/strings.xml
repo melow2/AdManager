@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">app</string>
+
+    <string name="INTERSTITIAL">전면광고</string>
+    <string name="BANNER_STRIP">배너광고(띠)</string>
+    <string name="BANNER_RECTANGLE">배너광고(직사각형)</string>
+    <string name="NATIVE">네이티브</string>
+
+    <!-- 테스트 광고 URL-->
+    <string name="default_base_url">http://52.78.108.217/AdManager/</string>
+
+    <!-- 테스트 광고 ID-->
+    <string name="default_admob_interstitial">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="default_admob_banner">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="default_admob_native">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="default_facebook_interstitial">IMG_16_9_APP_INSTALL#1113316402382477_1113341449046639</string>
+    <string name="default_facebook_banner">IMG_16_9_APP_INSTALL#1113316402382477_1114046095642841</string>
+    <string name="default_facebook_native">IMG_16_9_APP_INSTALL#1113316402382477_1114044892309628</string>
+    <string name="default_cauly_interstitial">uPfqVbcQ</string>
+    <string name="default_cauly_banner">uPfqVbcQ</string>
+    <string name="default_cauly_native">uPfqVbcQ</string>
+
+</resources>

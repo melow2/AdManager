@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ad_icon_size">56dp</dimen>
+    <dimen name="ad_icon_padding">4dp</dimen>
+    <dimen name="ad_default_margin">8dp</dimen>
+</resources>
