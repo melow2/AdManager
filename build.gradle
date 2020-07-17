@@ -6,14 +6,13 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.0.1'
+        classpath 'com.android.tools.build:gradle:3.6.3'
     }
 
 }
 
 allprojects {
     repositories {
-        google()
         jcenter()
         mavenCentral()
         maven { url 'http://devrepo.kakao.com:8088/nexus/content/groups/public/' }
@@ -21,6 +20,7 @@ allprojects {
             url "https://jitpack.io"
             credentials { username authToken }
         }
+        google()
     }
 }
 

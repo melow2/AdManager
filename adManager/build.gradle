@@ -32,7 +32,6 @@ repositories {
 }
 
 dependencies {
-
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation (name: 'CaulySDK-3.5.06', ext: 'aar'){
         transitive=true
