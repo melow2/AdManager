@@ -1,2 +1,2 @@
 include ':adManager'
-include ':app'
+// include ':app'

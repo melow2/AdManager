@@ -149,7 +149,6 @@
                 android:id="@+id/btn_test"
                 android:background="@drawable/bg_custom_fill_red"
                 android:text="테스트"
-                android:textColor="@color/colorPlain"
                 android:textStyle="bold"
                 android:clickable="true"
                 android:focusable="true"
