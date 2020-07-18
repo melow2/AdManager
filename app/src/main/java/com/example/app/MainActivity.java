@@ -153,6 +153,7 @@ public class MainActivity extends AppCompatActivity {
                         case INTERSTITIAL:
                             binding.tvLog.append("[전면광고] 테스트를 시작합니다.\n");
                             adManager = new AdManager.Builder(context)
+                                    .setAdmangerTest(true)
                                    .setAd(new Ad(AdName.CAULY,AdType.INTERSTITIAL,getText(R.string.default_cauly_interstitial).toString()))
 //                                    .setAd(new Ad(AdName.FACEBOOK,AdType.INTERSTITIAL,"901009453626141_902463743480712"))
 //                                    .setAd(new Ad(AdName.CAULY,AdType.INTERSTITIAL,"QAvzGHj5"))

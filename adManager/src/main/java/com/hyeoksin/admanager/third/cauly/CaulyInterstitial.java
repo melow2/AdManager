@@ -62,7 +62,6 @@ public class CaulyInterstitial extends BaseInterstitialThirdParty {
                         break;
                     default:
                         caulyInterstitialAd.cancel();
-
                         if (onAdLoadListener != null) {
                             onAdLoadListener.onAdFailedToLoad(ad);
                         }
