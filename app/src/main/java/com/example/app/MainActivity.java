@@ -153,11 +153,11 @@ public class MainActivity extends AppCompatActivity {
                         case INTERSTITIAL:
                             binding.tvLog.append("[전면광고] 테스트를 시작합니다.\n");
                             adManager = new AdManager.Builder(context)
-//                                    .setAd(new Ad(AdName.CAULY,AdType.INTERSTITIAL,getText(R.string.default_cauly_interstitial).toString()))
-                                    .setAd(new Ad(AdName.FACEBOOK,AdType.INTERSTITIAL,"901009453626141_902463743480712"))
-                                    .setAd(new Ad(AdName.CAULY,AdType.INTERSTITIAL,"QAvzGHj5"))
-                                    .setAd(new Ad(AdName.ADMOB,AdType.INTERSTITIAL,"ca-app-pub-2462990331209005/8186472396"))
-                                    .setAd(new Ad(AdName.MANPLUS,AdType.INTERSTITIAL,"1409,31898,804144"))
+                                   .setAd(new Ad(AdName.CAULY,AdType.INTERSTITIAL,getText(R.string.default_cauly_interstitial).toString()))
+//                                    .setAd(new Ad(AdName.FACEBOOK,AdType.INTERSTITIAL,"901009453626141_902463743480712"))
+//                                    .setAd(new Ad(AdName.CAULY,AdType.INTERSTITIAL,"QAvzGHj5"))
+//                                    .setAd(new Ad(AdName.ADMOB,AdType.INTERSTITIAL,"ca-app-pub-2462990331209005/8186472396"))
+//                                    .setAd(new Ad(AdName.MANPLUS,AdType.INTERSTITIAL,"1409,31898,804144"))
 //                                    .setAd(new Ad(AdName.FACEBOOK,AdType.INTERSTITIAL,getText(R.string.default_facebook_interstitial).toString()))
                                     .setOnInterstitialAdLoadListener(new OnInterstitialAdLoadListener() {
                                         @Override
@@ -178,8 +178,8 @@ public class MainActivity extends AppCompatActivity {
                             binding.tvLog.append("[배너광고(띠)] 테스트를 시작합니다.\n");
                             adManager = new AdManager.Builder(context)
                                     .setContainer(findViewById(R.id.lyt_banner))
-//                                    .setAd(new Ad(AdName.ADMOB,AdType.BANNER,getText(R.string.default_admob_banner).toString()))
-//                                    .setAd(new Ad(AdName.CAULY,AdType.BANNER,getText(R.string.default_cauly_banner).toString()))
+                                    //.setAd(new Ad(AdName.ADMOB,AdType.BANNER,getText(R.string.default_admob_banner).toString()))
+                                    //.setAd(new Ad(AdName.CAULY,AdType.BANNER,getText(R.string.default_cauly_banner).toString()))
                                     .setAd(new Ad(AdName.FACEBOOK,AdType.BANNER,getText(R.string.default_facebook_banner).toString()))
                                     .build();
                             adManager.load();
